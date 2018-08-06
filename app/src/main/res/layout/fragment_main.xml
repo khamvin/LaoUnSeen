@@ -6,37 +6,45 @@
     <!--Content-->
     <LinearLayout
 
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
 
         <!--Logo-->
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_frog" />
         <!--User-->
         <EditText
-            android:hint="Email : "
-            android:inputType="textEmailAddress"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/email"
+            android:hint="Email : "
+            android:inputType="textEmailAddress" />
         <!--Password-->
         <EditText
-            android:hint="Password : "
-            android:inputType="textPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/password"
+            android:hint="Password : "
+            android:inputType="textPassword" />
         <!--Login-->
         <Button
-            android:text="Login"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white"
+            android:text="Login" />
         <!--Register-->
         <TextView
-            android:layout_gravity="center_horizontal"
-            android:text="New Register"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="New Register" />
 
     </LinearLayout>
 
